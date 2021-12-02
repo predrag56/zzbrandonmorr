@@ -18,7 +18,7 @@ export default class MainMenuScene extends Phaser.Scene {
     this.camera = this.cameras.main;
 
     this.socket.on('welcome', () => {
-      this.add.text(this.camera.centerX, this.camera.centerY, 'Greetings Smithers...').setOrigin(0.5);
+      this.add.text(this.camera.centerX, this.camera.centerY, 'Greetings KOKSI...').setOrigin(0.5);
     });
   }
 
